@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kenai</title>
+</head>
+<body>
+    <section id="main">
+        <header>
+            <h2>Kenai</h2>
+            <ul id="list">
+                <li><img src="icons8-página-inicial-96.png" alt="" class="itens-header icon b"></li>
+                <li><img src="searchWhite.png" alt="" class="itens-header icon"></li>
+                <li><h3 class="itens-header icon a">Início</h3></li>
+                <li><h3 class="itens-header icon a">Minha lista</h3></li>
+                <li><h3 class="itens-header icon a">Login</h3></li>
+                <li><img src="icons8-lembrete-de-compromissos-96.png" alt="" class="itens-header icon"></li>
+                <li><img src="icons8-usuário-24.png " alt="" class="itens-header icon"></li>
+                <li onclick="closeModal()"><img src="icons8-cancelar.svg" alt="" class="itens-header icon" id="fechar" ></li>
+            </ul>
+            <div class="mobile-menu" onclick="navBar()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </header>
+        <section>
+            <div id="desc">
+                <h5 class="itens-desc">Ação</h5>
+                <img src="estrela-laranja.png" alt="" class="stars itens-desc">
+                <img src="estrela-laranja.png" alt="" class="stars itens-desc">
+                <img src="estrela-laranja.png" alt="" class="stars itens-desc">
+                <img src="estrela-laranja.png" alt="" class="stars itens-desc">
+                <img src="estrela-laranja.png" alt="" class="stars itens-desc">
+                <h1 class="itens-desc" id="title-desc">The Last of US</h1>
+                <p class="itens-desc" id="descricaoFilme">Vinte anos após a queda da civilização, Joel é contratado pra tirar Ellie de uma zona de quarentena perigosa. O que começa como um pequeno trabalho, logo se transforma em uma jornada brutal pela sobrevivência.</p>
+                <button id="btn-watch">Assistir agora</button>
+            </div>
+        </section>
+        <section id="section-cards">
+            <h1>Populares</h1>
+            <div id="cards">
+                <div class="filmes" id="card1" onclick="filmeOne()">
+                    
+                </div>
+                <div class="filmes" id="card2" onclick="filmeTwo()">
+                    
+                </div>
+                <div class="filmes" id="card3" onclick="filmeTre()">
+                    
+                </div>
+                <div class="filmes" id="card4" onclick="filmeFor()">
+
+                </div>
+                <div class="filmes" id="card5" onclick="filmeFive()">
+
+                </div>
+            </div>
+        </section>
+        <footer>
+            <ul>
+                <h2>Kenai</h2>
+                <div>
+                    <li><img src="icons8-instagram-100.png" alt="" class="icons-footer"></li>
+                    <li><img src="icons8-twitter-100.png" alt="" class="icons-footer"></li>
+                    <li><img src="icons8-f-do-facebook-100.png" alt="" class="icons-footer"></li>
+                
+            </ul>
+        </footer>
+    </section>
+   
+    <script src="script.js"></script>
+</body>
+</html>
