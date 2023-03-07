@@ -2,7 +2,7 @@ let filme = {
     filme1 : {
         titulo : 'The Last of US',
         descricao : 'Vinte anos após a queda da civilização, Joel é contratado pra tirar Ellie de uma zona de quarentena perigosa. O que começa como um pequeno trabalho, logo se transforma em uma jornada brutal pela sobrevivência.',
-        imagem : {url:'the-Last-Of-Us-baner2.webp' }
+        imagem : {url:'the-last-of-us-baner2.webp' }
     },
     filme2 : {
         titulo : 'Breaking Bad',
