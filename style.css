@@ -10,7 +10,6 @@ body {
 #main {
     background-image: url('the-last-of-us-baner2.webp');
     background-repeat: no-repeat;
-    background-size:100%;
     background-size: cover;
     bottom: 0;
     top: 0;
@@ -18,7 +17,8 @@ body {
     right: 0;
     position: absolute;
     overflow: auto;
-    
+    width: 100vw;
+    height: 100vh;
 }
 
 header {
@@ -60,7 +60,7 @@ header h2 {
     height: 25px;
 }
 #desc {
-    width: 400px;
+    width: 350px;
     animation: aparecer 2s;
 }
 
@@ -76,6 +76,7 @@ section:nth-child(2) {
     border: none;
     font-size: 20px;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .itens-desc {
